@@ -1,0 +1,72 @@
+.contact_wrapper {
+  position: relative;
+  min-height: 40rem;
+  padding: 3.25rem 0;
+}
+
+.contact_wrapper p {
+  margin-top: 0;
+}
+
+.contact_wrapper h2 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.contact_container {
+  padding: 0 5.75rem 2rem;
+  position: relative;
+}
+
+.contact_image {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  left: 0;
+  height: 100%;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+}
+
+.contact_image div {
+  height: 100%;
+  background-position: right center !important;
+}
+
+.contact_info {
+  max-width: 50%
+}
+
+.contact_info>span {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.social {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.social span {
+  font-size: 1.25rem;
+}
+
+.social a {
+  background: rgba(0, 0, 0, 0.1);
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin: 0 0.5rem;
+}
+
+@media screen and (max-width: 767px) {
+  .contact_container {
+    padding: 0 2.75rem 2rem;
+  }
+}

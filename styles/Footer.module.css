@@ -1,0 +1,26 @@
+.footer {
+  text-align: center;
+  padding: 1rem;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.social span {
+  font-size: 1.25rem;
+}
+
+.social a {
+  background: rgba(0, 0, 0, 0.1);
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin: 0 0.5rem;
+}

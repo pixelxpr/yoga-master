@@ -1,0 +1,56 @@
+.benefit_wrapper {
+  text-align: center;
+  position: relative;
+  padding: 3.25rem 0;
+}
+
+.benefit_container {
+  display: flex;
+  justify-content: space-around;
+  max-width: 100%;
+  margin: 0 auto;
+  position: relative;
+  z-index: 50;
+}
+
+.benefit_item {
+  padding-bottom: 1rem;
+}
+
+.benefit_item h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.benefit_item p {
+  font-size: 1rem;
+}
+
+.benefit_item_left {
+  text-align: right;
+  max-width: 18rem;
+}
+
+.benefit_item_center {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  left: 0;
+  height: 100%;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+}
+
+.benefit_item_center>div {
+  height: 100%;
+}
+
+.benefit_item_center+h1 {
+  position: relative;
+}
+
+.benefit_item_right {
+  text-align: left;
+  max-width: 18rem;
+}
