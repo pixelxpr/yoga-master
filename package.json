@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@vercel/analytics": "^0.1.5",
     "babel-runtime": "^6.26.0",
     "firebase": "^9.8.3",
     "firebase-admin": "^11.0.0",
