@@ -75,7 +75,7 @@ const Slider = () => {
                 style={{ aspectRatio: '2 / 1', height: '100%' }}
               />
             </ParallaxProvider>
-            <span className={`${isActive ? styles.slider_title_active : styles.slider_title_not_active}`}>
+            <span style={{color: "#000"}} className={`${isActive ? styles.slider_title_active : styles.slider_title_not_active}`}>
               {`${sliderContent[0]?.img2_text || 'Some Random text 2'}`}
             </span>
           </>
