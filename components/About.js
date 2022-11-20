@@ -43,6 +43,7 @@ const About = () => {
                 {`${About[0]?.Title || ''}`}
                 </h1>
                 <p>{`${About[0]?.Body || ''}`}</p>
+                <p>{`${About[0]?.Body2 || ''}`}</p>
             </div>
         </div>
     </div>
