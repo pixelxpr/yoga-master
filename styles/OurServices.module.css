@@ -16,7 +16,7 @@
 }
 
 .services_item_wrapper>div>div {
-  inset: unset;
+  inset: unset !important;
   height: 100%;
   width: 100%;
 }
