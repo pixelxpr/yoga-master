@@ -38,11 +38,15 @@ const Contact = () => {
         </ParallaxProvider>
       </div>
       <div className={styles.contact_container}>
-        <div className={styles.contact_info}>
+
+      <div className={styles.contact_info}>
           <h1>
             {`${Contact[0]?.Title || ''}`}
           </h1>
           <p>{`${Contact[0]?.Body || ''}`}</p>
+        </div>
+
+        <div className={styles.contact_info}>
           <h2>{`${Contact[0]?.['Sub-Title'] || ''}`}</h2>
           <span style={{display: "none"}}>Call Now - <a href={`tel:+91${Contact[0]?.Phone || ''}`}>+91 {`${Contact[0]?.Phone || ''}`}</a></span>
           <span>Email - <a href={`mailto:${Contact[0]?.Email || ''}`}>{`${Contact[0]?.Email || ''}`}</a></span>
