@@ -44,7 +44,7 @@ const Nav = () => {
                 <Link href='/'>{`${topNav[0]?.Home || 'Home'}`}</Link>
               </li>
               <li className={navStyles.header_link}>
-                <ScrollIntoView selector="#benefits" scrollOptions={{behavior: 'smooth'}}>
+                <ScrollIntoView selector="#benefits">
                   {`${topNav[0]?.Benefits || 'Benefits'}`}
                 </ScrollIntoView>
               </li>
