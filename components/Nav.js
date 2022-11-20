@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link'
 import StickyHeader from 'react-sticky-header';
 import ScrollIntoView from 'react-scroll-into-view';
-import smoothscroll from 'smoothscroll-polyfill';
 import { collection, onSnapshot, query } from 'firebase/firestore';
 
 // Local components
@@ -10,9 +9,6 @@ import { db } from '../firebase/initFirebase';
 
 import navStyles from '../styles/Nav.module.css'
 import 'react-sticky-header/styles.css';
-
-// kick off the polyfill!
-smoothscroll.polyfill();
 
 const Nav = () => {
   const [scroll, setScroll] = useState(false);
