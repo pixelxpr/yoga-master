@@ -5,10 +5,11 @@
 
 .services_item_wrapper {
   position: relative;
-  max-width: 20rem;
+  width: 20rem;
   border-radius: 100vw;
   overflow: hidden;
   height: 20rem;
+  border: 1px solid;
 }
 
 .services_item_wrapper>div {
