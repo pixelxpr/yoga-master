@@ -28,6 +28,7 @@
 
 .benefit_item p {
   font-size: 1rem;
+  display: none;
 }
 
 .benefit_item_left {

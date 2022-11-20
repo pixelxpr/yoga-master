@@ -42,3 +42,11 @@ a {
   right: 0;
   cursor: pointer;
 }
+
+/* @media screen and (max-width: 767px) {
+  html,
+  body {
+    font-size: calc(8px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+    scroll-behavior: smooth;
+  }
+} */
