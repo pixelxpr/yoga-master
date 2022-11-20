@@ -44,33 +44,33 @@ const Contact = () => {
           </h1>
           <p>{`${Contact[0]?.Body || ''}`}</p>
           <h2>{`${Contact[0]?.['Sub-Title'] || ''}`}</h2>
-          <span>Call Now - +91 {`${Contact[0]?.Phone || ''}`}</span>
-          <span>Email - {`${Contact[0]?.Email || ''}`}</span>
+          <span>Call Now - <a href={`tel:+91${Contact[0]?.Phone || ''}`}>+91 {`${Contact[0]?.Phone || ''}`}</a></span>
+          <span>Email - <a href={`mailto:${Contact[0]?.Email || ''}`}>{`${Contact[0]?.Email || ''}`}</a></span>
           <div className={styles.social}>
             <span>Follow us | </span>
-            <Link href={`${Contact[0]?.insta || ''}`}>
+            {Contact[0]?.insta !== '' && <Link href={`${Contact[0]?.insta || ''}`}>
               <a target="_blank" rel="noopener noreferrer" className='link-item'>
                 <i className="fa fa-instagram"></i>
               </a>
-            </Link>
+            </Link>}
 
-            <Link href={`${Contact[0]?.yt || ''}`}>
+            {Contact[0]?.yt !== '' && <Link href={`${Contact[0]?.yt || ''}`}>
               <a target="_blank" rel="noopener noreferrer" className='link-item'>
                 <i className="fa fa-youtube"></i>
               </a>
-            </Link>
+            </Link>}
 
-            <Link href={`${Contact[0]?.fb || ''}`}>
+            {Contact[0]?.fb !== '' && <Link href={`${Contact[0]?.fb || ''}`}>
               <a target="_blank" rel="noopener noreferrer" className='link-item'>
                 <i className="fa fa-facebook"></i>
               </a>
-            </Link>
+            </Link>}
 
-            <Link href={`https://wa.me/+91${Contact[0]?.Phone}?text=I'm%20interested`}>
+            {Contact[0]?.Phone !== '' && <Link href={`https://wa.me/+91${Contact[0]?.Phone}?text=I'm%20interested`}>
               <a target="_blank" rel="noopener noreferrer" className='link-item'>
                 <i className="fa fa-whatsapp"></i>
               </a>
-            </Link>
+            </Link>}
           </div>
         </div>
       </div>

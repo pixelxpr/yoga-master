@@ -46,12 +46,16 @@ const Benefits = () => {
           <BenefitItem title={`${Benefits[0]?.Title2 || ''}`} body={`${Benefits[0]?.Body2 || ''}`} />
           <BenefitItem title={`${Benefits[0]?.Title3 || ''}`} body={`${Benefits[0]?.Body3 || ''}`} />
           <BenefitItem title={`${Benefits[0]?.Title4 || ''}`} body={`${Benefits[0]?.Body4 || ''}`} />
-        </div>
-        <div className={styles.benefit_item_right}>
           <BenefitItem title={`${Benefits[0]?.Title5 || ''}`} body={`${Benefits[0]?.Body5 || ''}`} />
           <BenefitItem title={`${Benefits[0]?.Title6 || ''}`} body={`${Benefits[0]?.Body6 || ''}`} />
+        </div>
+        <div className={styles.benefit_item_right}>
           <BenefitItem title={`${Benefits[0]?.Title7 || ''}`} body={`${Benefits[0]?.Body7 || ''}`} />
           <BenefitItem title={`${Benefits[0]?.Title8 || ''}`} body={`${Benefits[0]?.Body8 || ''}`} />
+          <BenefitItem title={`${Benefits[0]?.Title9 || ''}`} body={`${Benefits[0]?.Body9 || ''}`} />
+          <BenefitItem title={`${Benefits[0]?.Title10 || ''}`} body={`${Benefits[0]?.Body10 || ''}`} />
+          <BenefitItem title={`${Benefits[0]?.Title11 || ''}`} body={`${Benefits[0]?.Body11 || ''}`} />
+          <BenefitItem title={`${Benefits[0]?.Title12 || ''}`} body={`${Benefits[0]?.Body12 || ''}`} />
         </div>
       </div>
     </div>

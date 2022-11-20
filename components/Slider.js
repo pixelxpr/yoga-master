@@ -36,8 +36,9 @@ const Slider = () => {
       modules={[Pagination, Autoplay]}
       autoplay
       loop
+      speed={1000}
     >
-      <SwiperSlide>
+      <SwiperSlide data-swiper-autoplay={`${sliderContent[0]?.slideDelay || 1000}`}>
         {({ isActive }) => (
           <>
             <ParallaxProvider>
@@ -46,7 +47,7 @@ const Slider = () => {
                   {
                     image: `${sliderContent[0]?.img1_url || '#'}`,
                     speed: 100,
-                    translateY: ['0', '0'],
+                    translateY: [0, 0],
                     scale: [1, 1],
                   }
                 ]}
@@ -54,12 +55,12 @@ const Slider = () => {
               />
             </ParallaxProvider>
             <span className={`${isActive ? styles.slider_title_active : styles.slider_title_not_active}`}>
-              {`${sliderContent[0]?.img1_text || 'Some Random text 1'}`}
+              {`${sliderContent[0]?.img1_text || ''}`}
             </span>
           </>
         )}
       </SwiperSlide>
-      <SwiperSlide>
+      <SwiperSlide data-swiper-autoplay={`${sliderContent[0]?.slideDelay || 1000}`}>
         {({ isActive }) => (
           <>
             <ParallaxProvider>
@@ -76,12 +77,12 @@ const Slider = () => {
               />
             </ParallaxProvider>
             <span style={{color: "#000"}} className={`${isActive ? styles.slider_title_active : styles.slider_title_not_active}`}>
-              {`${sliderContent[0]?.img2_text || 'Some Random text 2'}`}
+              {`${sliderContent[0]?.img2_text || ''}`}
             </span>
           </>
         )}
       </SwiperSlide>
-      <SwiperSlide>
+      <SwiperSlide data-swiper-autoplay={`${sliderContent[0]?.slideDelay || 1000}`}>
         {({ isActive }) => (
           <>
             <ParallaxProvider>
@@ -98,7 +99,7 @@ const Slider = () => {
               />
             </ParallaxProvider>
             <span className={`${isActive ? styles.slider_title_active : styles.slider_title_not_active}`}>
-              {`${sliderContent[0]?.img3_text || 'Some Random text 3'}`}
+              {`${sliderContent[0]?.img3_text || ''}`}
             </span>
           </>
         )}
