@@ -31,7 +31,7 @@
 
 @media screen and (max-width: 767px) {
   .slider_wrapper {
-    height: 95vh;
+    height: 90vh;
   }
 
   .slider_title_active {
