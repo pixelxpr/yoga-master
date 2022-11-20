@@ -14,7 +14,11 @@
 }
 
 .benefit_item {
-  padding-bottom: 1rem;
+  background: rgba(255, 0, 0, 0.2);
+  color: #fff;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin: 1rem;
 }
 
 .benefit_item h2 {
@@ -28,7 +32,7 @@
 
 .benefit_item_left {
   text-align: right;
-  max-width: 18rem;
+  max-width: 22rem;
 }
 
 .benefit_item_center {
@@ -52,5 +56,5 @@
 
 .benefit_item_right {
   text-align: left;
-  max-width: 18rem;
+  max-width: 22rem;
 }

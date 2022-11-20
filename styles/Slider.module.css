@@ -7,14 +7,17 @@
   z-index: 999;
   right: 3rem;
   top: 50%;
-  font-size: 2.5rem;
-  width: 22rem;
+  font-size: 2rem;
+  width: 24rem;
   transform: translateY(-50%);
   transition: opacity 2s ease, right 1s ease;
   transition-delay: 1s, 1s;
   opacity: 1;
   line-height: 1;
   color: #fff;
+  background: rgba(255, 0, 0, 0.2);
+  border-radius: 1rem;
+  padding: 1rem;
 }
 
 .slider_title_not_active {

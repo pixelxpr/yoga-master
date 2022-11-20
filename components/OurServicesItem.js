@@ -10,9 +10,13 @@ const OurServicesItem = ({ body, videoUrl, imgUrl }) => {
       <>
         <div className={styles.services_item_text}>{body}</div>
 
-        <Modal triggerEle={() => <div className={styles.services_item_play}><i className="fa fa-play-circle"></i></div>}>
+        {videoUrl === '' ? <><div className={styles.services_item_play}><i className="fa fa-lock"></i></div></> : <Modal triggerEle={() => 
+          <div className={styles.services_item_play}>
+            <i className="fa fa-play-circle"></i>
+          </div>
+        }>
           <ReactPlayer controls url={videoUrl} playing={true} />
-        </Modal>
+        </Modal>}
       </>
     )
   }
