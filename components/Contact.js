@@ -44,10 +44,10 @@ const Contact = () => {
           </h1>
           <p>{`${Contact[0]?.Body || ''}`}</p>
           <h2>{`${Contact[0]?.['Sub-Title'] || ''}`}</h2>
-          <span>Call Now - <a href={`tel:+91${Contact[0]?.Phone || ''}`}>+91 {`${Contact[0]?.Phone || ''}`}</a></span>
+          <span style={{display: "none"}}>Call Now - <a href={`tel:+91${Contact[0]?.Phone || ''}`}>+91 {`${Contact[0]?.Phone || ''}`}</a></span>
           <span>Email - <a href={`mailto:${Contact[0]?.Email || ''}`}>{`${Contact[0]?.Email || ''}`}</a></span>
           <div className={styles.social}>
-            <span>Follow us | </span>
+            <span>Follow / Message now | </span>
             {Contact[0]?.insta !== '' && <Link href={`${Contact[0]?.insta || ''}`}>
               <a target="_blank" rel="noopener noreferrer" className='link-item'>
                 <i className="fa fa-instagram"></i>

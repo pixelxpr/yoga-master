@@ -34,11 +34,12 @@ const Slider = () => {
         dynamicBullets: true,
       }}
       modules={[Pagination, Autoplay]}
-      autoplay
       loop
       speed={1000}
+      lazy
+      autoplay
     >
-      <SwiperSlide data-swiper-autoplay={`${sliderContent[0]?.slideDelay || 1000}`}>
+      <SwiperSlide data-swiper-autoplay={`${sliderContent[0]?.slideDelay || 15000}`}>
         {({ isActive }) => (
           <>
             <ParallaxProvider>
@@ -60,7 +61,7 @@ const Slider = () => {
           </>
         )}
       </SwiperSlide>
-      <SwiperSlide data-swiper-autoplay={`${sliderContent[0]?.slideDelay || 1000}`}>
+      <SwiperSlide data-swiper-autoplay={`${sliderContent[0]?.slideDelay || 10000}`}>
         {({ isActive }) => (
           <>
             <ParallaxProvider>
@@ -82,7 +83,7 @@ const Slider = () => {
           </>
         )}
       </SwiperSlide>
-      <SwiperSlide data-swiper-autoplay={`${sliderContent[0]?.slideDelay || 1000}`}>
+      <SwiperSlide data-swiper-autoplay={`${sliderContent[0]?.slideDelay || 10000}`}>
         {({ isActive }) => (
           <>
             <ParallaxProvider>
