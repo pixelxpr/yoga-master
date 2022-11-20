@@ -78,4 +78,7 @@
   .contact_info {
     max-width: 100%;
   }
+  .contact_wrapper p {
+    font-size: 2rem;
+  }
 }

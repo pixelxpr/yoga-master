@@ -49,10 +49,13 @@
 }
 
 @media screen and (max-width: 767px) {
-.about_container {
-    padding: 0 2.75rem 2rem;
-}
-.about_info {
-    max-width: 100%;
-}
+    .about_container {
+        padding: 0 2.75rem 2rem;
+    }
+    .about_info {
+        max-width: 100%;
+    }
+    .about_wrapper p {
+        font-size: 2rem;
+    }
 }
