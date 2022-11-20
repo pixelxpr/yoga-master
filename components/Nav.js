@@ -49,7 +49,7 @@ const Nav = () => {
                 </ScrollIntoView>
               </li>
               <li className={navStyles.header_link}>
-                <ScrollIntoView selector="#our-services" scrollOptions={{behavior: 'auto'}}>
+                <ScrollIntoView selector="#our-services">
                   {`${topNav[0]?.['Our Services'] || 'Our Services'}`}
                 </ScrollIntoView>
               </li>
