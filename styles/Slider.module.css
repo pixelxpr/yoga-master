@@ -29,6 +29,19 @@
   color: #ff0;
 }
 
+.slider_title_active.slider_title_cert {
+  right: auto;
+  bottom: auto;
+  top: 12rem;
+  left: 1rem;
+  transition: opacity 2s ease, left 1s ease;
+}
+
+.slider_title_not_active.slider_title_cert {
+  left: -100vw;
+  right: auto;
+}
+
 @media screen and (max-width: 767px) {
   .slider_wrapper {
     height: 90vh;
