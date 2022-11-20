@@ -14,7 +14,7 @@
 }
 
 .contact_container {
-  padding: 0 5.75rem 2rem;
+  padding: 0 3rem 2rem;
   position: relative;
 }
 
@@ -35,7 +35,12 @@
 }
 
 .contact_info {
-  max-width: 50%
+  max-width: 50%;
+  background: rgba(255, 0, 0, 0.2);
+  color: #fff;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin: 1rem;
 }
 
 .contact_info>span {
