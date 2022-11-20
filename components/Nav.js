@@ -44,12 +44,12 @@ const Nav = () => {
                 <Link href='/'>{`${topNav[0]?.Home || 'Home'}`}</Link>
               </li>
               <li className={navStyles.header_link}>
-                <ScrollIntoView selector="#benefits">
+                <ScrollIntoView selector="#benefits" scrollOptions={{behavior: 'smooth'}}>
                   {`${topNav[0]?.Benefits || 'Benefits'}`}
                 </ScrollIntoView>
               </li>
               <li className={navStyles.header_link}>
-                <ScrollIntoView selector="#our-services">
+                <ScrollIntoView selector="#our-services" scrollOptions={{behavior: 'auto'}}>
                   {`${topNav[0]?.['Our Services'] || 'Our Services'}`}
                 </ScrollIntoView>
               </li>
