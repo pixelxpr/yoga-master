@@ -6,10 +6,11 @@
 .services_item_wrapper {
   position: relative;
   width: 20rem;
-  border-radius: 100vw;
+  border-radius: 50%;
   overflow: hidden;
   height: 20rem;
   border: 1px solid;
+  -webkit-mask-image: -webkit-radial-gradient(white, black);
 }
 
 .services_item_wrapper>div {
