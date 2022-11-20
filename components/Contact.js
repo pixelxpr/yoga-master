@@ -48,6 +48,7 @@ const Contact = () => {
 
         <div className={styles.contact_info}>
           <h2>{`${Contact[0]?.['Sub-Title'] || ''}`}</h2>
+          <h3>{`${Contact[0]?.['Contact_text'] || ''}`}</h3>
           <span style={{display: "none"}}>Call Now - <a href={`tel:+91${Contact[0]?.Phone || ''}`}>+91 {`${Contact[0]?.Phone || ''}`}</a></span>
           <span>Email - <a href={`mailto:${Contact[0]?.Email || ''}`}>{`${Contact[0]?.Email || ''}`}</a></span>
           <div className={styles.social}>
