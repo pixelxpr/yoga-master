@@ -50,17 +50,17 @@ const Nav = () => {
               </li>
               <li className={navStyles.header_link}>
                 <ScrollIntoView selector="#our-services">
-                  {`${topNav[0]?.['Our Services'] || 'Our Services'}`}
-                </ScrollIntoView>
-              </li>
-              <li className={navStyles.header_link}>
-                <ScrollIntoView selector="#contact-us">
-                  {`${topNav[0]?.['Contact us'] || 'Contact us'}`}
+                  {`${topNav[0]?.['Our Services'] || 'Services'}`}
                 </ScrollIntoView>
               </li>
               <li className={navStyles.header_link}>
                 <ScrollIntoView selector="#about-us">
-                  {`${topNav[0]?.['About'] || 'About us'}`}
+                  {`${topNav[0]?.['About'] || 'About'}`}
+                </ScrollIntoView>
+              </li>
+              <li className={navStyles.header_link}>
+                <ScrollIntoView selector="#contact-us">
+                  {`${topNav[0]?.['Contact us'] || 'Contact'}`}
                 </ScrollIntoView>
               </li>
             </ul>

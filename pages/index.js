@@ -15,8 +15,8 @@ export default function Home() {
       <Benefits />
       <OurServices />
       <HappyCustomers />
-      <Contact />
       <About />
+      <Contact />
       <Analytics />
     </div>
   )
