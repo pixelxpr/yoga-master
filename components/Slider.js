@@ -58,9 +58,6 @@ const Slider = () => {
             <span className={`${isActive ? styles.slider_title_active : styles.slider_title_not_active}`}>
               {`${sliderContent[0]?.img1_text || ''}`}
             </span>
-            <span className={`${styles.slider_title_cert} ${isActive ? styles.slider_title_active : styles.slider_title_not_active}`}>
-              {`${sliderContent[0]?.cert1_text || ''}`}
-            </span>
           </>
         )}
       </SwiperSlide>
@@ -83,9 +80,6 @@ const Slider = () => {
             <span className={`${isActive ? styles.slider_title_active : styles.slider_title_not_active}`}>
               {`${sliderContent[0]?.img2_text || ''}`}
             </span>
-            <span className={`${styles.slider_title_cert} ${styles.slider_title_cert} ${isActive ? styles.slider_title_active : styles.slider_title_not_active}`}>
-              {`${sliderContent[0]?.cert2_text || ''}`}
-            </span>
           </>
         )}
       </SwiperSlide>
@@ -107,9 +101,6 @@ const Slider = () => {
             </ParallaxProvider>
             <span className={`${isActive ? styles.slider_title_active : styles.slider_title_not_active}`}>
               {`${sliderContent[0]?.img3_text || ''}`}
-            </span>
-            <span className={`${styles.slider_title_cert} ${isActive ? styles.slider_title_active : styles.slider_title_not_active}`}>
-              {`${sliderContent[0]?.cert3_text || ''}`}
             </span>
           </>
         )}

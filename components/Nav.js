@@ -58,6 +58,11 @@ const Nav = () => {
                   {`${topNav[0]?.['Contact us'] || 'Contact us'}`}
                 </ScrollIntoView>
               </li>
+              <li className={navStyles.header_link}>
+                <ScrollIntoView selector="#about-us">
+                  {`${topNav[0]?.['About'] || 'About us'}`}
+                </ScrollIntoView>
+              </li>
             </ul>
           </div>
         </div>

@@ -1,0 +1,58 @@
+.about_wrapper {
+    position: relative;
+    min-height: 40rem;
+    padding: 3.25rem 0;
+}
+  
+.about_wrapper p {
+    margin-top: 0;
+}
+
+.about_wrapper h2 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+.about_container {
+    padding: 0 3rem 2rem;
+    position: relative;
+}
+
+.about_image {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0;
+    height: 100%;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.about_image div {
+    height: 100%;
+    background-position: right bottom !important;
+}
+
+.about_info {
+    max-width: 50%;
+    background: rgba(255, 0, 0, 0.2);
+    color: #fff;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+.about_info>span {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 767px) {
+.about_container {
+    padding: 0 2.75rem 2rem;
+}
+.about_info {
+    max-width: 100%;
+}
+}

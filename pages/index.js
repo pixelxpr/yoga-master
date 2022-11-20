@@ -5,9 +5,7 @@ import OurServices from '../components/OurServices';
 import HappyCustomers from '../components/HappyCustomers';
 import Contact from '../components/Contact';
 import { Analytics } from '@vercel/analytics/react';
-
-// import { initFirebase } from '../firebase/initFirebase';
-// console.log(initFirebase(), '========');
+import About from '../components/About';
 
 export default function Home() {
   return (
@@ -18,6 +16,7 @@ export default function Home() {
       <OurServices />
       <HappyCustomers />
       <Contact />
+      <About />
       <Analytics />
     </div>
   )
