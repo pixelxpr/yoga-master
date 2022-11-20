@@ -12,7 +12,7 @@ import { Analytics } from '@vercel/analytics/react';
 export default function Home() {
   return (
     <div>
-      <Meta title='Dashboard' />
+      <Meta title='Shape up with Ana' />
       <Slider />
       <Benefits />
       <OurServices />
