@@ -6,13 +6,19 @@
 .services_item_wrapper {
   position: relative;
   max-width: 20rem;
-  border-radius: 50%;
+  border-radius: 100vw;
   overflow: hidden;
   height: 20rem;
 }
 
 .services_item_wrapper>div {
   height: 100%;
+}
+
+.services_item_wrapper>div>div {
+  inset: unset;
+  height: 100%;
+  width: 100%;
 }
 
 .services_item_text,
