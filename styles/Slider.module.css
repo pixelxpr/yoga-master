@@ -30,6 +30,10 @@
 }
 
 @media screen and (max-width: 767px) {
+  .slider_wrapper {
+    height: 80vh;
+  }
+
   .slider_title_active {
     right: 1rem;
   }
