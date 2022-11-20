@@ -5,22 +5,15 @@
 
 .services_item_wrapper {
   position: relative;
-  width: 20rem;
+  max-width: 20rem;
   border-radius: 50%;
   overflow: hidden;
   height: 20rem;
-  border: 1px solid;
   -webkit-mask-image: -webkit-radial-gradient(white, black);
 }
 
 .services_item_wrapper>div {
   height: 100%;
-}
-
-.services_item_wrapper>div>div {
-  inset: unset !important;
-  height: 100%;
-  width: 100%;
 }
 
 .services_item_text,
