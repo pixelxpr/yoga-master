@@ -74,4 +74,7 @@
   .contact_container {
     padding: 0 2.75rem 2rem;
   }
+  .contact_info {
+    max-width: 100%;
+  }
 }
