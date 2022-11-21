@@ -43,6 +43,10 @@
   margin: 1rem;
 }
 
+.contact_info h3 {
+  margin: 0.25rem 0;
+}
+
 .contact_info>span {
   display: block;
   margin-bottom: 1rem;

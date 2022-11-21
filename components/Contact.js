@@ -49,10 +49,10 @@ const Contact = () => {
         <div className={styles.contact_info}>
           <h2>{`${Contact[0]?.['Sub-Title'] || ''}`}</h2>
           <h3>{`${Contact[0]?.['Contact_text'] || ''}`}</h3>
-          <span style={{display: "none"}}>Call Now - <a href={`tel:+91${Contact[0]?.Phone || ''}`}>+91 {`${Contact[0]?.Phone || ''}`}</a></span>
-          <span>Email - <a href={`mailto:${Contact[0]?.Email || ''}`}>{`${Contact[0]?.Email || ''}`}</a></span>
+          <h3 style={{display: "none"}}>Call Now - <a href={`tel:+91${Contact[0]?.Phone || ''}`}>+91 {`${Contact[0]?.Phone || ''}`}</a></h3>
+          <h3>Email - <a href={`mailto:${Contact[0]?.Email || ''}`}>{`${Contact[0]?.Email || ''}`}</a></h3>
           <div className={styles.social}>
-            <span>Follow / Message now | </span>
+            <h3>Follow / Message now | </h3>
             {Contact[0]?.insta !== '' && <Link href={`${Contact[0]?.insta || ''}`}>
               <a target="_blank" rel="noopener noreferrer" className='link-item'>
                 <i className="fa fa-instagram"></i>
