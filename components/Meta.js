@@ -18,9 +18,9 @@ const Meta = ({ title, keywords, description }) => {
 }
 
 Meta.defaultProps = {
-  title: 'WebDev Newz',
-  keywords: 'web development, programming',
-  description: 'Get the latest news in web dev',
+  title: 'shapeupwithana',
+  keywords: 'yoga, workout, shape-up, strengthening, Calorie burners, Morning flow yoga, Morning yoga, Strength training, Vinyasa, Diet plans',
+  description: 'Workout has the power to change your life. Every individual is seeking to achieve different goals. My aim is to personalise your learning to maximise the physical and mental benefits that you are looking to achieve.',
 }
 
 export default Meta
