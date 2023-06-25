@@ -7,6 +7,7 @@ import { db } from "../firebase/initFirebase";
 
 // Styles
 import styles from "../styles/Footer.module.css";
+import Link from "next/link";
 
 const Footer = () => {
   const [footerText, setFooter] = useState("");
