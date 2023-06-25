@@ -26,8 +26,7 @@ const Footer = () => {
     <div className={styles.footer}>
       <div>{footerText ? footerText?.map((item) => item.copyright) : ""}</div>
       <div>
-        Developed by
-        <Link href="mailto:pixelxpr@gmail.com">
+        Developed by <Link href="mailto:pixelxpr@gmail.com">
           <a target="_blank" rel="noopener noreferrer" className="link-item">
             Pixelxpr
           </a>
